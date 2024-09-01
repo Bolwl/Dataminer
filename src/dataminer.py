@@ -93,7 +93,7 @@ def main():
     old_items = load_previous_version_data(vold)
     
     # Download and extract the latest Growtopia binary
-    download_latest_growtopia(vold)
+    download_latest_growtopia()
     extract_growtopia_binary()
     
     # Read and process the binary file
