@@ -30,7 +30,7 @@ To build the project, you'll need `g++` and `libcurl` installed. Here’s how yo
 2. **Compile the Project:**
    - Run the following command to compile the source code and link against `libcurl`:
      ```sh
-     g++ dataminer.cpp -I"C:\libcurl\include" -L"C:\libcurl\lib" -lcurl
+     g++ src/dataminer.cpp -I"C:\libcurl\include" -L"C:\libcurl\lib" -lcurl
      ```
    - Adjust the `-I` and `-L` paths as necessary to point to your `libcurl` installation directories.
 
