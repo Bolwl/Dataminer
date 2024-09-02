@@ -207,6 +207,10 @@ int main() {
 
     // Display and save the new items that were not in the previous version
     displayNewItems(items, oldItems);
+    
+    std::cout << "Press enter to exit...";
+    std::cin.ignore(); // Ignore any previous input
+    std::cin.get(); // Wait for the user to press enter
 
     return 0;
 }
