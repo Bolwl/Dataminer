@@ -106,6 +106,8 @@ def main():
     # Save new version data and display differences
     save_new_version_data(version, items)
     display_new_items(items, old_items)
+    
+    input("Press Enter to exit...")
 
 if __name__ == "__main__":
     main()
