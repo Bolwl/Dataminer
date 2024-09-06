@@ -1,3 +1,5 @@
+# MAKE SURE YOU HAVE 7-ZIP INSTALLED ON YOUR DEVICE!!!
+
 # Growtopia Dataminer
 
 This project provides a tool to download the latest Growtopia version, extract data, and compare item names between versions. Below you'll find instructions for building the project and using the tool. Precompiled version is also available for users who prefer not to compile the code themselves.
